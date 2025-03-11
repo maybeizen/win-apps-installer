@@ -1,6 +1,6 @@
 # Windows Software Installer
 
-A collection of batch scripts to easily install common Windows software using Chocolatey package manager.
+A collection of batch scripts to easily install common Windows software.
 
 ## Overview
 
@@ -22,16 +22,27 @@ This project provides a simple menu-driven interface to install various categori
 
 ## Prerequisites
 
-- Windows operating system
+- Windows operating system (Fresh install preferred, but not required.)
 - Administrator privileges
 - Internet connection
-- [Chocolatey](https://chocolatey.org/install) package manager
+- [Chocolatey](https://chocolatey.org/install) package manager (Will be installed automatically if not already installed)
 
 ## Usage
 
-1. Run the main script as administrator
-2. Navigate through the menus to select software to install
-3. Follow on-screen prompts
+1. Clone the repository:
+
+```bash
+git clone https://github.com/maybeizen/win-apps-installer.git
+```
+
+2. Run the main script as administrator
+
+```bash
+WinAppsInstaller.bat
+```
+
+3. Navigate through the menus to select software to install
+4. Follow on-screen prompts
 
 ## Structure
 
@@ -47,4 +58,4 @@ This project provides a simple menu-driven interface to install various categori
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](license) file for details.
