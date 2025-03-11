@@ -38,8 +38,13 @@ git clone https://github.com/maybeizen/win-apps-installer.git
 2. Run the main script as administrator
 
 ```bash
+cd win-apps-installer
 WinAppsInstaller.bat
 ```
+
+OR
+
+Right-click on the `WinAppsInstaller.bat` file and select "Run as administrator"
 
 3. Navigate through the menus to select software to install
 4. Follow on-screen prompts
