@@ -61,6 +61,100 @@ Right-click on the `WinAppsInstaller.bat` file and select "Run as administrator"
   - `security_privacy.bat` - Security and privacy tools installation
   - `database_server.bat` - Database and server software installation
 
+## Available Applications
+
+### Web Browsers
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Brave Browser
+- Opera
+- Vivaldi
+- Tor Browser
+- LibreWolf
+
+### Productivity Software
+
+- Microsoft Office (Office 365 setup)
+- LibreOffice
+- Adobe Reader
+- Foxit PDF Reader
+- Notepad++
+- 7-Zip
+- WinRAR
+- ShareX (Screen Capture)
+- Notion
+- Obsidian
+
+### Media Players and Entertainment
+
+- VLC Media Player
+- Spotify
+- iTunes
+- GIMP (Image Editor)
+- Audacity (Audio Editor)
+- OBS Studio (Screen Recording)
+- Blender (3D Creation)
+- Krita (Digital Painting)
+- HandBrake (Video Transcoder)
+
+### Utilities and Tools
+
+- CCleaner
+- Malwarebytes
+- TeamViewer
+- qBittorrent
+- WinDirStat (Disk Usage Analyzer)
+- CPU-Z
+- GPU-Z
+- Everything (File Search)
+- Rufus (USB Formatter)
+- HWiNFO (Hardware Info)
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- Python
+- Node.js
+- Java Development Kit (JDK)
+  - OpenJDK 8
+  - OpenJDK 11
+  - OpenJDK 17 (LTS)
+  - OpenJDK 21 (LTS)
+  - Oracle JDK 17
+  - Oracle JDK 21
+- Visual Studio Community
+- Sublime Text
+- Atom
+- Cursor IDE (AI-based fork of Visual Studio Code)
+- GoLang
+- Docker Desktop
+- Insomnia
+
+### Security and Privacy Tools
+
+- Bitwarden (Password Manager)
+- KeePass (Password Manager)
+- VeraCrypt (Disk Encryption)
+- Cryptomator (File Encryption)
+- ProtonVPN
+- Signal Desktop
+- Wireshark (Network Analyzer)
+- OpenVPN
+
+### Database and Server Software
+
+- MySQL
+- MariaDB
+- PostgreSQL
+- MongoDB
+- Redis
+- NGINX
+- Apache HTTP Server
+- XAMPP
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](license) file for details.

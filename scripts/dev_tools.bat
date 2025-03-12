@@ -25,7 +25,6 @@ echo  [8] Atom
 echo  [9] Cursor
 echo  [A] GoLang
 echo  [B] Docker Desktop
-echo  [C] Postman
 echo  [D] JDK Version Selection
 echo  [E] Insomnia
 echo  [F] Install All Development Tools
@@ -33,8 +32,8 @@ echo  [G] Back to Main Menu
 echo.
 choice /c 123456789ABCDEFG /m "Enter your choice:"
 
-if errorlevel 16 exit /b
-if errorlevel 15 (
+if errorlevel 15 exit /b
+if errorlevel 14 (
     call "%~dp0choco_installer.bat" vscode "Visual Studio Code"
     call "%~dp0choco_installer.bat" git "Git"
     call "%~dp0choco_installer.bat" python "Python"
@@ -43,19 +42,17 @@ if errorlevel 15 (
     call "%~dp0choco_installer.bat" visualstudio2022community "Visual Studio Community 2022"
     call "%~dp0choco_installer.bat" sublimetext3 "Sublime Text"
     call "%~dp0choco_installer.bat" atom "Atom"
-    call "%~dp0choco_installer.bat" cursor "Cursor"
+    call "%~dp0choco_installer.bat" cursoride "Cursor"
     call "%~dp0choco_installer.bat" golang "GoLang"
     call "%~dp0choco_installer.bat" docker-desktop "Docker Desktop"
-    call "%~dp0choco_installer.bat" postman "Postman"
     call "%~dp0choco_installer.bat" insomnia-rest-api-client "Insomnia"
     goto dev_tools_menu
 )
-if errorlevel 14 call "%~dp0choco_installer.bat" insomnia-rest-api-client "Insomnia" & goto dev_tools_menu
-if errorlevel 13 call :jdk_selection & goto dev_tools_menu
-if errorlevel 12 call "%~dp0choco_installer.bat" postman "Postman" & goto dev_tools_menu
+if errorlevel 13 call "%~dp0choco_installer.bat" insomnia-rest-api-client "Insomnia" & goto dev_tools_menu
+if errorlevel 12 call :jdk_selection & goto dev_tools_menu
 if errorlevel 11 call "%~dp0choco_installer.bat" docker-desktop "Docker Desktop" & goto dev_tools_menu
-if errorlevel 10 call "%~dp0choco_installer.bat" golang "GoLang" & goto dev_tools_menu
-if errorlevel 9 call "%~dp0choco_installer.bat" cursor "Cursor" & goto dev_tools_menu
+if errorlevel 10 call  "%~dp0choco_installer.bat" golang "GoLang" & goto dev_tools_menu
+if errorlevel 9 call "%~dp0choco_installer.bat" cursoride "Cursor" & goto dev_tools_menu
 if errorlevel 8 call "%~dp0choco_installer.bat" atom "Atom" & goto dev_tools_menu
 if errorlevel 7 call "%~dp0choco_installer.bat" sublimetext3 "Sublime Text" & goto dev_tools_menu
 if errorlevel 6 call "%~dp0choco_installer.bat" visualstudio2022community "Visual Studio Community 2022" & goto dev_tools_menu
